@@ -1,5 +1,53 @@
 # import the exit function from the sys module
+
+""" ToDo:
+        Implement workable class system
+"""
+        
 from sys import exit
+
+class GameEngine:
+    """Launch game and end game"""
+    
+    def __init__(self):
+        pass
+
+class Rooms:
+    """Load scenes for players to interact with."""
+    def __init__(self):
+        
+        pass
+
+
+class Player:
+    """A class containing all the attributes and actions each player has access to"""
+   
+    def __init__(self, name='', is_alive=True):
+        self.inventory = []
+        self.name = name
+        self.is_alive = is_alive
+        
+        
+    def move(self):
+        """Moves Player in a specific direction."""
+        pass
+    
+    def action(self):
+        """Defines the actions a player can make."""
+        pass
+    
+    def remove_from_inv(self):
+        """Remove item from inventory"""
+        pass
+    
+    def add_item_to_inv(self:
+        """Adds item to inventory"""
+        pass
+    
+    def use_item_from_inv(self, item):
+        """Uses specific item in inventory"""
+        pass
+        
 
 
 
